@@ -1,0 +1,25 @@
+[graph]
+all = true
+
+[licenses]
+allow = [
+  "Apache-2.0",
+  "MIT",
+  "BSD-3-Clause",
+  "BSD-2-Clause",
+  "ISC",
+  "MPL-2.0",
+  "Unicode-DFS-2016",
+  "Zlib",
+  "AGPL-3.0-or-later",
+  "GPL-3.0-or-later"
+]
+confidence_threshold = 0.8
+
+[bans]
+highlight = "all"
+deny = []
+
+[sources]
+unknown-registry = "warn"
+unknown-git = "warn"
